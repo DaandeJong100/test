@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apache-html
+data:
+  index.html: |
+    <html>
+      <head><title>Welcome to this working apache webserver</title></head>
+      <body><h1>Curta'n wall is an amazing band. I recommend listening to siege tower and fear of god first!</h1></body>
+    </html>
